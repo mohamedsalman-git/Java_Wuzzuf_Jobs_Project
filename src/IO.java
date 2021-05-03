@@ -21,12 +21,11 @@ public class IO {
             }
             // loop until all lines are read
             while (line != null) {
-                //System.out.println("the line " + line);
                 // use string.split to load a string array with the values from each line of the file, using a comma as the delimiter
                 String[] metadata = line.split(",(?=([^\"]*\"[^\"]*\")*[^\"]*$)", 8);
 
-                // createPyramid() retrieved attribute"
-                // adding Pyramid into ArrayList
+                // createJob() retrieved attribute"
+                // adding Job into ArrayList
                 Jobs.add(createJob(metadata));
 
                 // read next line before looping
@@ -55,7 +54,7 @@ public class IO {
         String skills   = metadata[7];
 
 
-        // create and return Pyramid of this metadata
+        // create and return Job of this metadata
         return new JobDetails(title, company, location, type,
                             level, yearsExp, country, skills);
 

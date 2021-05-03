@@ -19,7 +19,6 @@ public class JobsDataService {
                     } else {
                         jobFrequencyMap.put(title, 1);
                     }
-                    //System.out.println(i++);
                 }
 
                 System.out.println("the list of Job Titles and Job popularity(i.e. frequency of job titles):");
@@ -87,7 +86,6 @@ public class JobsDataService {
                 for (String name: jobFrequencyMap.keySet()) {
                     String key = name.toString();
                     String value = jobFrequencyMap.get(name).toString();
-                    //System.out.println("size:"+jobFrequencyMap.keySet().size());
                     j++;
                     System.out.print(j);
                     System.out.print(String.format("\t%-20s\thas a job frequency of ",name));

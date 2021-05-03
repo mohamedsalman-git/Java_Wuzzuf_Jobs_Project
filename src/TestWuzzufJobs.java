@@ -23,4 +23,3 @@ public class TestWuzzufJobs {
         test();
     }
 }
-    //English Teacher / Primary Stages	Modern American School of Egypt 2000	 New Cairo	Full Time	Experienced	3-7 Yrs of Exp	Cairo	English Teacher, Upper Primary, Education, Teaching, Communication Skills, Education/Teaching
